@@ -15,20 +15,20 @@ body {
 }
 .menu {
 	list-style: none;
-	padding: 0%;
+	padding: 0;
 	background-color: $background-color_2;
-	width: 100%;
-	max-width: 2000px;
-	margin: auto;
+	text-align: center;
 	li {
+		display: inline-block;
+		text-align: center;
 		a {
 			text-decoration: none;
 			color: $color_1;
 			padding: 20px;
 			display: block;
+			text-align: center;
+			text-transform: uppercase;
 		}
-		display: inline-block;
-		text-align: center;
 		&:hover {
 			background-color: $background-color_3;
 		}
@@ -44,17 +44,11 @@ body#templo {
 	marquee {
 		color: $color_3;
 		font-size: 30px;
-		display: inline-block;
+		display: block;
 	}
 }
 body#razones {
 	marquee {
-		color: $color_3;
-		font-size: 30px;
-		display: block;
-		color: $color_3;
-		font-size: 30px;
-		display: block;
 		color: $color_3;
 		font-size: 30px;
 		display: block;
@@ -65,24 +59,10 @@ body#especie {
 		color: $color_3;
 		font-size: 30px;
 		display: block;
-		color: $color_3;
-		font-size: 30px;
-		display: block;
-		color: $color_3;
-		font-size: 30px;
-		display: block;
 	}
 	h1 {
 		marquee {
 			color: $color_1;
-			font-size: 30px;
-			display: block;
-			color: $color_1;
-			font-size: 30px;
-			display: block;
-			color: $color_1;
-			font-size: 30px;
-			display: block;
 		}
 	}
 }
@@ -91,157 +71,37 @@ body#egipcios {
 		color: $color_3;
 		font-size: 30px;
 		display: block;
-		color: $color_3;
-		font-size: 30px;
-		display: block;
-		color: $color_3;
-		font-size: 30px;
-		display: block;
 	}
 }
 @media screen and (min-width: 1024px) {
-	body {
-		background-color: $background-color_1;
-	}
 	.menu {
-		list-style: none;
-		padding: 0;
-		background-color: $background-color_2;
-		width: 100%;
 		max-width: 2000px;
 		margin: auto;
-		li {
-			display: inline-block;
-			text-align: center;
-			a {
-				text-decoration: none;
-				color: $color_1;
-				padding: 20px;
-				display: block;
-			}
-			&:hover {
-				background-color: $background-color_3;
-			}
-		}
-	}
-	footer {
-		background-color: $background-color_4;
-		color: $color_2;
-		text-align: center;
-		padding: 20px;
-	}
-	body#templo {
-		marquee {
-			color: $color_3;
-			font-size: 30px;
-			display: inline-block;
-		}
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	body {
-		background-color: $background-color_1;
-	}
 	.menu {
-		list-style: none;
-		padding: 0;
-		background-color: $background-color_2;
-		width: 100%;
-		max-width: 2000px;
-		margin: auto;
+		display: none;
 		li {
-			display: inline-block;
-			text-align: center;
-			a {
-				text-decoration: none;
-				color: $color_1;
-				padding: 20px;
-				display: block;
-			}
-			&:hover {
-				background-color: $background-color_3;
-			}
+			padding: 1em;
 		}
 	}
 	footer {
-		background-color: $background-color_4;
-		color: $color_2;
-		text-align: center;
-		padding: 20px;
-	}
-	body#templo {
-		marquee {
-			color: $color_3;
-			font-size: 30px;
-			display: inline-block;
-		}
-	}
+        font-size: 14px;
+    }
 }
+
 @media screen and (max-width: 767px) {
-	body {
-		background-color: $background-color_1;
+	img {
+		margin-top: auto;
+		max-width: fit-content;
 	}
 	.menu {
-		list-style: none;
-		padding: 0;
-		background-color: $background-color_2;
 		width: 100%;
 		max-width: 2000px;
 		margin: auto;
-		text-align: center;
-		li {
-			display: block;
-			text-align: center;
-			a {
-				text-decoration: none;
-				color: $color_1;
-				padding: 20px;
-				display: block;
-			}
-			&:hover {
-				background-color: $background-color_3;
-			}
-		}
 	}
 	footer {
-		background-color: $background-color_4;
-		color: $color_2;
-		text-align: center;
-		padding: 20px;
-	}
-	body#templo {
-		marquee {
-			color: $color_3;
-			font-size: 30px;
-			display: inline-block;
-		}
-	}
-	body#razones {
-		marquee {
-			color: $color_3;
-			font-size: 30px;
-			display: block;
-		}
-	}
-	body#especie {
-		marquee {
-			color: $color_3;
-			font-size: 30px;
-			display: block;
-		}
-		h1 {
-			marquee {
-				color: $color_1;
-				font-size: 30px;
-				display: block;
-			}
-		}
-	}
-	body#egipcios {
-		marquee {
-			color: $color_3;
-			font-size: 30px;
-			display: block;
-		}
-	}
+        font-size: 12px;
+    }
 }
