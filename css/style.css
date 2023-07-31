@@ -65,6 +65,9 @@ body#especie h1 marquee {
   .menu li {
     padding: 1em;
   }
+  footer {
+    font-size: 14px;
+ }
 }
 
 /* estilo para pantalla movil */
@@ -78,6 +81,10 @@ body#especie h1 marquee {
     max-width: 2000px;
     margin: auto;
   }
+
+  footer {
+    font-size: 12px;
+}
 }
 
  
