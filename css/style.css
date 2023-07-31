@@ -62,7 +62,7 @@ body#especie h1 marquee {
 }
 
 /* estilo para pantallas tipo tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   .menu {
     display: none;
   }
