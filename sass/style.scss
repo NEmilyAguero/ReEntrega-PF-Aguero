@@ -1,0 +1,247 @@
+$color_1: white;
+$color_2: #fff;
+$color_3: rgb(255, 255, 255);
+$background-color_1: rgb(255, 179, 226);
+$background-color_2: #f474ee;
+$background-color_3: rgb(243, 159, 232);
+$background-color_4: #fb9ed7;
+
+@charset "UTF-8";
+/* estilo para pantallas de pc*/
+/* estilo para pantallas tipo tablet */
+/* estilo para pantalla movil */
+body {
+	background-color: $background-color_1;
+}
+.menu {
+	list-style: none;
+	padding: 0%;
+	background-color: $background-color_2;
+	width: 100%;
+	max-width: 2000px;
+	margin: auto;
+	li {
+		a {
+			text-decoration: none;
+			color: $color_1;
+			padding: 20px;
+			display: block;
+		}
+		display: inline-block;
+		text-align: center;
+		&:hover {
+			background-color: $background-color_3;
+		}
+	}
+}
+footer {
+	background-color: $background-color_4;
+	color: $color_2;
+	text-align: center;
+	padding: 20px;
+}
+body#templo {
+	marquee {
+		color: $color_3;
+		font-size: 30px;
+		display: inline-block;
+	}
+}
+body#razones {
+	marquee {
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+	}
+}
+body#especie {
+	marquee {
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+	}
+	h1 {
+		marquee {
+			color: $color_1;
+			font-size: 30px;
+			display: block;
+			color: $color_1;
+			font-size: 30px;
+			display: block;
+			color: $color_1;
+			font-size: 30px;
+			display: block;
+		}
+	}
+}
+body#egipcios {
+	marquee {
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+		color: $color_3;
+		font-size: 30px;
+		display: block;
+	}
+}
+@media screen and (min-width: 1024px) {
+	body {
+		background-color: $background-color_1;
+	}
+	.menu {
+		list-style: none;
+		padding: 0;
+		background-color: $background-color_2;
+		width: 100%;
+		max-width: 2000px;
+		margin: auto;
+		li {
+			display: inline-block;
+			text-align: center;
+			a {
+				text-decoration: none;
+				color: $color_1;
+				padding: 20px;
+				display: block;
+			}
+			&:hover {
+				background-color: $background-color_3;
+			}
+		}
+	}
+	footer {
+		background-color: $background-color_4;
+		color: $color_2;
+		text-align: center;
+		padding: 20px;
+	}
+	body#templo {
+		marquee {
+			color: $color_3;
+			font-size: 30px;
+			display: inline-block;
+		}
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	body {
+		background-color: $background-color_1;
+	}
+	.menu {
+		list-style: none;
+		padding: 0;
+		background-color: $background-color_2;
+		width: 100%;
+		max-width: 2000px;
+		margin: auto;
+		li {
+			display: inline-block;
+			text-align: center;
+			a {
+				text-decoration: none;
+				color: $color_1;
+				padding: 20px;
+				display: block;
+			}
+			&:hover {
+				background-color: $background-color_3;
+			}
+		}
+	}
+	footer {
+		background-color: $background-color_4;
+		color: $color_2;
+		text-align: center;
+		padding: 20px;
+	}
+	body#templo {
+		marquee {
+			color: $color_3;
+			font-size: 30px;
+			display: inline-block;
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	body {
+		background-color: $background-color_1;
+	}
+	.menu {
+		list-style: none;
+		padding: 0;
+		background-color: $background-color_2;
+		width: 100%;
+		max-width: 2000px;
+		margin: auto;
+		text-align: center;
+		li {
+			display: block;
+			text-align: center;
+			a {
+				text-decoration: none;
+				color: $color_1;
+				padding: 20px;
+				display: block;
+			}
+			&:hover {
+				background-color: $background-color_3;
+			}
+		}
+	}
+	footer {
+		background-color: $background-color_4;
+		color: $color_2;
+		text-align: center;
+		padding: 20px;
+	}
+	body#templo {
+		marquee {
+			color: $color_3;
+			font-size: 30px;
+			display: inline-block;
+		}
+	}
+	body#razones {
+		marquee {
+			color: $color_3;
+			font-size: 30px;
+			display: block;
+		}
+	}
+	body#especie {
+		marquee {
+			color: $color_3;
+			font-size: 30px;
+			display: block;
+		}
+		h1 {
+			marquee {
+				color: $color_1;
+				font-size: 30px;
+				display: block;
+			}
+		}
+	}
+	body#egipcios {
+		marquee {
+			color: $color_3;
+			font-size: 30px;
+			display: block;
+		}
+	}
+}
