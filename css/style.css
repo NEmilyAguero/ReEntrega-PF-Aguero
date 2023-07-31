@@ -1,0 +1,235 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(255, 179, 226);
+}
+.menu{
+    list-style: none;
+    padding: 0%;
+    background-color: #f474ee;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li:hover{
+    background-color: rgb(243, 159, 232);
+}
+footer{
+    background-color: #fb9ed7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+body#templo marquee{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: inline-block;
+}
+body#razones marquee{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+}
+body#especie marquee{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+}
+body#especie h1 marquee{
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+body#egipcios marquee{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: block;
+}
+
+/* estilo para pantallas de pc*/
+@media screen and (min-width: 1024px) {
+    body {
+      background-color: rgb(255, 179, 226);
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      background-color: #f474ee;
+      width: 100%;
+      max-width: 2000px;
+      margin: auto;
+    }
+    .menu li {
+      display: inline-block;
+      text-align: center;
+    }
+    .menu li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block;
+    }
+    .menu li:hover {
+      background-color: rgb(243, 159, 232);
+    }
+    footer {
+      background-color: #fb9ed7;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    body#templo marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: inline-block;
+      }
+    }
+    body#razones marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+      }
+    body#especie marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+      }
+    body#especie h1 marquee {
+        color: white;
+        font-size: 30px;
+        display: block;
+      }
+    body#egipcios marquee {
+       color: rgb(255, 255, 255);
+       font-size: 30px;
+       display: block;
+      }
+    
+  /* estilo para pantallas tipo tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      background-color: rgb(255, 179, 226);
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      background-color: #f474ee;
+      width: 100%;
+      max-width: 2000px;
+      margin: auto;
+    }
+    .menu li {
+      display: inline-block;
+      text-align: center;
+    }
+    .menu li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block;
+    }
+    .menu li:hover {
+      background-color: rgb(243, 159, 232);
+    }
+    footer {
+      background-color: #fb9ed7;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    body#templo marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: inline-block;
+      }
+    }
+    body#razones marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+      }
+    body#especie marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+      }
+    body#especie h1 marquee {
+        color: white;
+        font-size: 30px;
+        display: block;
+      }
+    body#egipcios marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px; 
+        display: block;
+      }
+
+  /* estilo para pantalla movil */
+@media screen and (max-width: 767px) {
+    body {
+      background-color: rgb(255, 179, 226);
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      background-color: #f474ee;
+      width: 100%;
+      max-width: 2000px;
+      margin: auto;
+      text-align: center; 
+    }
+    .menu li {
+      display: block; 
+      text-align: center; 
+    }
+    .menu li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block;
+    }
+    .menu li:hover {
+      background-color: rgb(243, 159, 232);
+    }
+    footer {
+      background-color: #fb9ed7;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  body#templo marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: inline-block;
+}
+    body#razones marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+}
+    body#especie marquee {
+       color: rgb(255, 255, 255);
+       font-size: 30px;
+       display: block;
+ }
+    body#especie h1 marquee {
+        color: white;
+        font-size: 30px;
+        display: block;
+      }
+    body#egipcios marquee {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        display: block;
+      }
+ }
+/*# sourceMappingURL=style.css.map */
