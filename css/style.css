@@ -1,59 +1,4 @@
 @charset "UTF-8";
-body{
-    background-color: rgb(255, 179, 226);
-}
-.menu{
-    list-style: none;
-    padding: 0%;
-    background-color: #f474ee;
-    width: 100%;
-    max-width: 2000px;
-    margin: auto;
-}
-.menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-.menu li{
-    display: inline-block;
-    text-align: center;
-}
-.menu li:hover{
-    background-color: rgb(243, 159, 232);
-}
-footer{
-    background-color: #fb9ed7;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-body#templo marquee{
-        color: rgb(255, 255, 255);
-        font-size: 30px;
-        display: inline-block;
-}
-body#razones marquee{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    display: block;
-}
-body#especie marquee{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    display: block;
-}
-body#especie h1 marquee{
-    color: white;
-    font-size: 30px;
-    display: block;
-}
-body#egipcios marquee{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    display: block;
-}
 
 /* estilo para pantallas de pc*/
 @media screen and (min-width: 1024px) {
@@ -67,6 +12,7 @@ body#egipcios marquee{
       width: 100%;
       max-width: 2000px;
       margin: auto;
+      text-align: center;
     }
     .menu li {
       display: inline-block;
@@ -77,6 +23,7 @@ body#egipcios marquee{
       color: white;
       padding: 20px;
       display: block;
+      text-align: center;
     }
     .menu li:hover {
       background-color: rgb(243, 159, 232);
@@ -120,13 +67,17 @@ body#egipcios marquee{
       background-color: rgb(255, 179, 226);
     }
     .menu {
+      list
       list-style: none;
       padding: 0;
       background-color: #f474ee;
       width: 100%;
       max-width: 2000px;
       margin: auto;
+     text-align: center;
     }
+    
+    
     .menu li {
       display: inline-block;
       text-align: center;
@@ -136,6 +87,7 @@ body#egipcios marquee{
       color: white;
       padding: 20px;
       display: block;
+      text-align: center;
     }
     .menu li:hover {
       background-color: rgb(243, 159, 232);
@@ -178,12 +130,15 @@ body#egipcios marquee{
     body {
       background-color: rgb(255, 179, 226);
     }
+    img{
+      margin-top: 0px;
+    }
     .menu {
       list-style: none;
       padding: 0;
       background-color: #f474ee;
-      width: 100%;
-      max-width: 2000px;
+      width: auto;
+      max-width: 767px;
       margin: auto;
       text-align: center; 
     }
@@ -196,6 +151,7 @@ body#egipcios marquee{
       color: white;
       padding: 20px;
       display: block;
+      text-align: center;
     }
     .menu li:hover {
       background-color: rgb(243, 159, 232);
@@ -231,5 +187,6 @@ body#egipcios marquee{
         font-size: 30px;
         display: block;
       }
+  
  }
 /*# sourceMappingURL=style.css.map */
