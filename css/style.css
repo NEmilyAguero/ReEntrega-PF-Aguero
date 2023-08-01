@@ -77,7 +77,7 @@ body#especie h1 marquee {
 }
 
 /* estilo para pantalla movil */
-@media screen and (min-width: 767px) and (max-width: 1022px) {
+@media screen and  (max-width: 767px) (max-width: 1022px) {
   img {
     margin-top: auto;
     max-width: fit-content;
