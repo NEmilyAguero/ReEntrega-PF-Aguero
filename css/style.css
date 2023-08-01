@@ -77,11 +77,12 @@ body#especie h1 marquee {
 }
 
 /* estilo para pantalla movil */
-@media screen and  (max-width: 767px) (max-width: 1022px) {
+@media screen and (max-width: 767px) {
   img {
     margin-top: auto;
-    max-width: fit-content;
+    max-width: 100%; 
   }
+
   .menu {
     width: 100%;
     max-width: 2000px;
@@ -90,8 +91,6 @@ body#especie h1 marquee {
 
   footer {
     font-size: 12px;
+  }
 }
-}
-
- 
 /*# sourceMappingURL=style.css.map */
