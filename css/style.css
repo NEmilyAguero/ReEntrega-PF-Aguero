@@ -4,7 +4,7 @@ body {
   background-color: rgb(255, 179, 226);
 }
 
-body#razones marquee{
+body#razones {
   display: flex;
 }
 
@@ -51,11 +51,6 @@ body .scrolling-text p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
-
 footer {
   background-color: #fb9ed7;
   color: #fff;
@@ -63,16 +58,16 @@ footer {
   padding: 20px;
 }
 
-body#templo marquee,
-body#razones marquee,
-body#especie marquee,
-body#egipcios marquee {
+body#templo,
+body#razones,
+body#especie,
+body#egipcios  {
   color: rgb(255, 255, 255);
   font-size: 30px;
   display: block;
 }
 
-body#especie h1 marquee {
+body#especie p {
   color: white;
 }
 
@@ -131,7 +126,7 @@ body#especie marquee,
 body#egipcios marquee,
 body#templo marquee {
   
-    font-size: 20px;
+    font-size: 10px;
   }
 
   footer {
