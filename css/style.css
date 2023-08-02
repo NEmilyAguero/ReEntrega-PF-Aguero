@@ -35,8 +35,10 @@ body#razones marquee{
 
 .scrolling-text {
   white-space: nowrap;
-  overflow: hidden;
+  overflow: hauto;
   color: white; 
+  max-width: 100%;
+  padding: 10px;
 }
 
 .scrolling-text p {
@@ -113,6 +115,10 @@ body#especie h1 marquee {
   .menu li {
     display: block;
   }
+  }
+
+  .scrolling-text {
+    font-size: 14px; 
   }
 
 .scrolling-text p {
