@@ -45,13 +45,14 @@ body#razones {
 }
 
 .scrolling-text p {
-  display: block;
+  display: flex;
   animation: marquee 1s; 
 }
 
 body .scrolling-text p {
   font-size: 26px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex
 }
 
 footer {
@@ -67,7 +68,7 @@ body#especie,
 body#egipcios  {
   color: rgb(255, 255, 255);
   font-size: 30px;
-  display: block;
+  display: flex;
 }
 
 body#especie p {
