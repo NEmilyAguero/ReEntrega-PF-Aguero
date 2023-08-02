@@ -4,7 +4,7 @@ body {
   background-color: rgb(255, 179, 226);
 }
 
-body#razones {
+body#razones marquee{
   display: flex;
 }
 
@@ -13,7 +13,6 @@ body#razones {
   padding: 0;
   background-color: #f474ee;
   text-align: center;
-  display: flex;
 }
 
 .menu li {
@@ -28,7 +27,6 @@ body#razones {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu li:hover {
@@ -37,22 +35,23 @@ body#razones {
 
 .scrolling-text {
   white-space: nowrap;
-  overflow: hauto;
+  overflow: hidden;
   color: white; 
-  max-width: 100%;
-  padding: 10px;
-  display: flex;
 }
 
 .scrolling-text p {
-  display: flex;
+  display: block;
   animation: marquee 1s; 
 }
 
 body .scrolling-text p {
   font-size: 26px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  display: flex
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
 
 footer {
@@ -65,13 +64,13 @@ footer {
 body#templo,
 body#razones,
 body#especie,
-body#egipcios  {
+body#egipcios marquee {
   color: rgb(255, 255, 255);
   font-size: 30px;
-  display: flex;
+  display: block;
 }
 
-body#especie p {
+body#especie p{
   color: white;
 }
 
@@ -99,7 +98,7 @@ body#especie p {
 }
 
 /* estilo para pantalla movil */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   img {
     margin-top: auto;
     max-width: 100%; 
@@ -116,10 +115,6 @@ body#especie p {
   }
   }
 
-  .scrolling-text {
-    font-size: 14px; 
-  }
-
 .scrolling-text p {
   font-size: 20px; 
   padding: 0 10px; 
@@ -129,12 +124,12 @@ body#razones,
 body#especie,
 body#egipcios,
 body#templo {
-    font-size: 10px;
+  
+    font-size: 20px;
   }
 
   footer {
     font-size: 12px;
-    display: flex;
   }
 
 /*# sourceMappingURL=style.css.map */
