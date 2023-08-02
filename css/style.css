@@ -98,7 +98,7 @@ body#especie p {
 }
 
 /* estilo para pantalla movil */
-@media screen and (min-width:360) (max-width: 768px) {
+@media screen and (max-width: 375px) {
   img {
     margin-top: auto;
     max-width: 100%; 
