@@ -33,6 +33,27 @@ body#razones marquee{
   background-color: rgb(243, 159, 232);
 }
 
+.scrolling-text {
+  white-space: nowrap;
+  overflow: hidden;
+  color: white; 
+}
+
+.scrolling-text p {
+  display: block;
+  animation: marquee 1s; 
+}
+
+body .scrolling-text p {
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
 footer {
   background-color: #fb9ed7;
   color: #fff;
@@ -61,12 +82,12 @@ body#especie h1 marquee {
   }
 }
 
+
 /* estilo para pantallas tipo tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
   .menu {
     display: none;
     margin: auto;
-
   }
   .menu li {
     padding: 1em;
@@ -77,7 +98,7 @@ body#especie h1 marquee {
 }
 
 /* estilo para pantalla movil */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   img {
     margin-top: auto;
     max-width: 100%; 
@@ -89,8 +110,26 @@ body#especie h1 marquee {
     margin: auto;
   }
 
+  .menu li {
+    display: block;
+  }
+  }
+
+.scrolling-text p {
+  font-size: 20px; 
+  padding: 0 10px; 
+}
+
+body#razones marquee,
+body#especie marquee,
+body#egipcios marquee,
+body#templo marquee {
+  
+    font-size: 20px;
+  }
+
   footer {
     font-size: 12px;
   }
-}
+
 /*# sourceMappingURL=style.css.map */
