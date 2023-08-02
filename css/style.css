@@ -13,6 +13,7 @@ body#razones {
   padding: 0;
   background-color: #f474ee;
   text-align: center;
+  display: flex;
 }
 
 .menu li {
@@ -27,6 +28,7 @@ body#razones {
   display: block;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .menu li:hover {
@@ -39,6 +41,7 @@ body#razones {
   color: white; 
   max-width: 100%;
   padding: 10px;
+  display: flex;
 }
 
 .scrolling-text p {
@@ -121,16 +124,16 @@ body#especie p {
   padding: 0 10px; 
 }
 
-body#razones marquee,
-body#especie marquee,
-body#egipcios marquee,
-body#templo marquee {
-  
+body#razones,
+body#especie,
+body#egipcios,
+body#templo {
     font-size: 10px;
   }
 
   footer {
     font-size: 12px;
+    display: flex;
   }
 
 /*# sourceMappingURL=style.css.map */
